@@ -1,0 +1,247 @@
+body{
+	
+    background-size: 90px 60px;
+    background-repeat:;
+
+
+}
+header{
+	min-height: 60px;
+}
+.sign{
+	float: right;
+	margin-top: -50px;
+}
+.container{
+	background-color: white;
+	min-height:60em;
+	margin-top: 20px;
+	border-radius: 8px;
+}
+#search{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	height: 200px;
+}
+h2{
+	font-family: "Times New Roman", Times, serif;
+}
+@font-face {
+    font-family: pacifico;
+    src: url(font/Pacifico.ttf);
+}
+@font-face{
+	font-family: MIDNSBRG;
+	src:url(font/MIDNSBRG.ttf);
+}
+
+.fontpacifico {
+    font-family: pacifico;
+}
+#signinform{
+	margin-top: 5em;
+	padding-bottom: 5em;
+	border:1px solid #C9EDED;
+	border-radius: 7px;
+}
+#signupform{
+	display: none;
+	margin-top: 5em;
+	padding-bottom: 5em;
+	border:1px solid #C9EDED;
+	border-radius: 7px;
+}
+hr.hr { 
+  border: 0; 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8c8c; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.hr:before{ 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8c8c; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+.clear{
+		clear:both;
+	}
+
+	#selectbook2:hover{color: blue;
+
+	}
+	.showallbooksnearme{
+		color: black;
+		
+	}
+	#headerloggedin{
+		background:  ;
+		height: 120px;
+		border-bottom: 1px solid white;
+	}
+	#headerloggedin_background{
+		position: absolute;
+		height: 120px;background-color: #dcd7ff;
+		opacity:.94 ;
+		z-index: -10;
+	}
+
+	#profile{
+		height:;
+	}
+	#findbooks {
+        position:absolute ;
+        z-index: 100;
+        width: 92%;
+        padding-left: 0;
+}
+     #findbooks button:hover{
+	color: white;
+	background-color: black;
+}
+ul .borrowlist{
+	list-style-type: none;
+	color: blue;
+	
+	}
+.borrowlist:hover{
+       color: black;    
+}
+#borrowlist{
+	padding-left: 0;
+}
+.addbooklist {
+	list-style-type: none;
+	margin-bottom: 25px;
+	margin-top: 25px
+	}
+
+#addbooklist{
+	padding-left: 0;
+}
+	#editsettings{
+		list-style-type: none;
+		margin-top: 20px;
+	}
+	#editsettings hr{
+		margin: 0px;
+	}
+	
+	.editsettings{
+		padding:8px 0 8px 10px;
+
+	}
+	.editdivsetttings{
+		background-color: #e9e9f0;
+	}
+	.editsettings:hover{
+		background-color: #E5E5FF;
+		border-radius: 5px;
+		height: 100%;
+	}
+	.inputaddbooklisthidden{
+		display: none;
+	}
+	#ul_findbooksnearme{
+		list-style-type: none;
+	}
+	#ul_findbooksnearme img,#ul_findbooksnearme_notlogged img{
+		max-width: 160px;
+	}
+
+	#ul_findbooksnearme li{
+		display: inline-block;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 15px 0;
+		
+	}  
+	#ul_findbooksnearme li span ,#ul_findbooksnearme_notlogged li span{
+		color:grey;font-size:1.3em;
+	}
+	#ul_findbooksnearme_notlogged{
+		list-style-type: none;
+	}
+
+	#ul_findbooksnearme_notlogged li{
+		display: inline-block;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 15px 0;
+		
+	}  
+	
+    #out_ul_new_msg{
+    	list-style-type: none;
+    }
+    .out_li_new_msg{
+    	margin-bottom: 20px;
+    }
+    .in_ul_new_msg{
+        list-style-type: none;
+    }
+    /* shelf_book */
+    #ul_shelf_book{
+    	list-style-type: none; 
+    	margin-top: 3em;      
+    }
+    #ul_shelf_book li{
+    	margin-bottom: 2em;
+    }
+    #ul_shelf_book  .a{
+    	color: grey;
+    	font-size:1.3em;
+    	font-weight: bold;
+    }
+    #ul_shelf_book  .b{
+        color:black;
+    	word-wrap: break-word;
+    }
+    /* shelf_book */
+    #isbn-user-selectedbook{
+    	margin-top: 2em;
+    	text-align: center;
+    }
+    #isbn-user-selectedbook .a{
+    	color: grey;
+    	font-size:1.3em;
+    	font-weight: bold;
+    }
+    #isbn-user-selectedbook .b{
+        color:black;
+    	word-wrap: break-word;
+    }
+    #isbn-user-selectedbook img{
+    	border-radius: 9px;
+    	max-width: 200px;
+    	    }
+
+	/**********************/
+	@media screen and (max-width: 768px) { 
+
+
+		#headerloggedin{
+			height: 180px;
+		}
+		#headerloggedin_background{
+			height: 180px;
+		}
+                #greeting{
+	           position:relative ;
+                   top: 1.6em;
+                   text-align: center;
+	            }
+
+               #signmain{
+               	width: 100%;
+                text-align: center;
+                  }
+
+            
+ }
